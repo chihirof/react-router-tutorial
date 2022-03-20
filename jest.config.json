@@ -1,0 +1,8 @@
+{
+  "roots": ["<rootDir>"],
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+      "^@(src/.+)": "<rootDir>/$1",
+      "^@tests/(.+)": "<rootDir>/__tests__/$1"
+  }
+}
